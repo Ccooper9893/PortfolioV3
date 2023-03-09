@@ -1,0 +1,16 @@
+.footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .footer img {
+    /* border: 1px white dashed; */
+    border-radius: 1rem;
+    margin:0.5rem 0.8rem;
+    width: 2.3rem;
+    box-shadow: 1px 1px 3px gray;
+  }

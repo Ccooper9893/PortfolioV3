@@ -1,5 +1,6 @@
 :root {
-  --active-color: #05EE00;
+  --active-color: #05EE00;;
+  /* #05EE00; */
 }
 
 .header ul {
@@ -7,9 +8,11 @@
     list-style: none;
     margin: 2vh 5vw;
     padding: 0;
+    
   }
   
   .header li {
+    /* font-weight: bold; */
     flex: 1;
     font-size: 1.2rem;
     text-align: center;
@@ -17,16 +20,16 @@
   }
 
   .header li:hover {
-    /* border-top: 1px solid var(--active-color); */
+    /* border-bottom: 1px solid var(--active-color); */
     cursor: pointer;
   }
 
   .activeNav {
-    border-top: 1px solid var(--active-color);
+    border-bottom: 1px solid var(--active-color);
   }
 
   .lazyNav {
-    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
   }
 
   @media screen and (max-width: 500px) {
@@ -46,18 +49,18 @@
     }
 
     .header li:hover {
-        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
         border-left: 1px solid var(--active-color);
         cursor: pointer;
       }
       
       .activeNav {
         border-left: 1px solid var(--active-color);
-        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
       }
     
       .lazyNav {
         border-left: 1px solid transparent;
-        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
       }
   }
