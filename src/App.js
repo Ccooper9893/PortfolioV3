@@ -1,11 +1,6 @@
 import './App.css';
+import PageContainer from './components/PageContainer';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>THIS IS MY HEADER</h1>
-    </div>
-  );
+export default function App() {
+  return <PageContainer></PageContainer>
 }
-
-export default App;

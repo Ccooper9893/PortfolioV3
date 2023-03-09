@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/Header.css'
 
 export default function Header({ currentPage, handlePageChange }) {
     return (
@@ -6,7 +7,7 @@ export default function Header({ currentPage, handlePageChange }) {
             <ul>
                 <li>HOME</li>
                 <li>ABOUT</li>
-                <li>PORTFOLIO</li>
+                <li>PROJECTS</li>
                 <li>RESUME</li>
                 <li>CONTACT</li>
             </ul>
