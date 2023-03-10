@@ -4,7 +4,13 @@ import './styles/Header.css'
 export default function Header({ currentPage, handlePageChange }) {
     return (
         <div className="header">
+            {/* <li className="name">CODY COOPER</li> */}
             <ul>
+                <li 
+                className={ currentPage === 'Home' ? 'activeNav' : 'lazyNav' }
+                onClick={() => handlePageChange('Home')}
+                >HOME</li>
+                
                 <li
                 className={ currentPage === 'About' ? 'activeNav' : 'lazyNav' }
                 onClick={() => handlePageChange('About')}
@@ -14,11 +20,6 @@ export default function Header({ currentPage, handlePageChange }) {
                 className={ currentPage === 'Projects' ? 'activeNav' : 'lazyNav' }
                 onClick={() => handlePageChange('Projects')}
                 >PROJECTS</li>
-
-                <li 
-                className={ currentPage === 'Home' ? 'activeNav' : 'lazyNav' }
-                onClick={() => handlePageChange('Home')}
-                >HOME</li>
                 
                 <li 
                 className={ currentPage === 'Resume' ? 'activeNav' : 'lazyNav' }

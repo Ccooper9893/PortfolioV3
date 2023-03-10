@@ -24,6 +24,7 @@ export default function PageContainer() {
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
+    
     return (
         <div className="pageContainer">
             <Header currentPage={currentPage} handlePageChange={handlePageChange}></Header>
