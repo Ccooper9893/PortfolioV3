@@ -4,10 +4,11 @@
 
 body {
     font-family: 'Rajdhani', sans-serif;
-    background: rgb(32,32,32);
-    background: linear-gradient(0deg, rgba(32,32,32,1) 0%, rgba(35,34,31,1) 24%, rgba(36,34,31,1) 32%, rgba(39,36,30,1) 40%, rgba(45,40,28,1) 45%, rgba(59,48,24,1) 58%, rgba(68,53,21,1) 65%, rgba(74,56,19,1) 73%, rgba(78,59,18,1) 77%, rgba(85,63,16,1) 82%, rgba(90,66,14,1) 85%, rgba(96,69,12,1) 88%, rgba(99,71,11,1) 90%, rgba(103,73,10,1) 92%, rgba(111,78,8,1) 95%, rgba(116,81,7,1) 98%, rgba(139,95,0,1) 100%);
-    min-height: 100vh;
+    background-color: #202020;
     min-width: 100vw;
+    margin: 0;
+    height: 100vh;
+    padding: 0;
 }
 
 @keyframes helloSlide {

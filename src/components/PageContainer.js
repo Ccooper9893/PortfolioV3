@@ -31,13 +31,12 @@ export default function PageContainer() {
             <Header currentPage={currentPage} handlePageChange={handlePageChange}></Header>
             <div className="h-96 carousel carousel-vertical rounded-box">
 
-                <div className="carousel-item h-full grid grid-cols-2">
-                    <div className="grid grid-rows-3">
+                <div className="carousel-item flex justify-center">
+                    
                         <h1 className="text-center hello">HELLO THERE!</h1>
-                    </div>
+                    
                         <img className="max-w-sm" src={selfie.toString()}></img>
                 </div> 
-
                 <div className="carousel-item h-full justify-center">
                     <h1 className="text-center">MY SKILLS</h1>
                 </div> 
