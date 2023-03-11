@@ -8,6 +8,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import selfie from '../assets/images/browntintselfie2-1lr-sm.png'
 
 export default function PageContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -28,8 +29,27 @@ export default function PageContainer() {
     return (
         <div className="pageContainer">
             <Header currentPage={currentPage} handlePageChange={handlePageChange}></Header>
-            {renderPage()}
-            <Footer></Footer>
+            <div className="h-96 carousel carousel-vertical rounded-box">
+
+                <div className="carousel-item h-full grid grid-cols-2">
+                    <div className="grid grid-rows-3">
+                        <h1 className="text-center hello">HELLO THERE!</h1>
+                    </div>
+                        <img className="max-w-sm" src={selfie.toString()}></img>
+                </div> 
+
+                <div className="carousel-item h-full justify-center">
+                    <h1 className="text-center">MY SKILLS</h1>
+                </div> 
+
+                <div className="carousel-item h-full justify-center">
+                    <h1 className="text-center">PROJECTS</h1>
+                </div> 
+
+                <div className="carousel-item h-full justify-center">
+                    <h1 className="text-center">CONTACT ME</h1>
+                </div> 
+            </div>
         </div>
     );
 };
