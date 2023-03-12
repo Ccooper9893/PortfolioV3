@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/transitions.css';
-import Fade from 'react-reveal/Fade';
-
+import { motion } from "framer-motion"
+ 
 export default function About() {
     return (
         <div className="h-96 carousel carousel-vertical p-30">
@@ -9,17 +9,23 @@ export default function About() {
                 <div className="hero bg-base-200 h-4/5">
                     <div className="hero-content text-center w-full">
                         <div className="max-w-md">
-                            <h1 className="text-6xl text-yellow-500 fade-in-2">WHO AM I?</h1>
+                        {/* <motion.div
+                            initial={{ y: -300 }}
+                            animate={{ y: 0 }}
+                            transition={{ duration: 0.8 }}
+                        > */}
+                            <h1 className="text-6xl text-white">WHO AM I?</h1>
+                            {/* </motion.div> */}
                             <p className="py-6 text-xl fade-in-3 text-white">
-                                <Fade left>Coder</Fade>
-                                <span className="text-yellow-500 text-2xl fade-in-4">Adventurer - </span>
-                                <span className="text-yellow-500 text-2xl fade-in-5">Learnaholic - </span>
-                                <span className="text-yellow-500 text-2xl fade-in-6">Leader</span>
+                                <span className="text-yellow-500 text-2xl">Coder - </span>
+                                <span className="text-yellow-500 text-2xl">Adventurer - </span>
+                                <span className="text-yellow-500 text-2xl">Learnaholic - </span>
+                                <span className="text-yellow-500 text-2xl">Leader</span>
                             </p> 
                             <p>Programming and problem-solving are passions of mine. I love taking on new challenges and making an impact along the way.</p>
                             <div className="animate-bounce mt-10">
-                                <p className="fade-in-4">Scroll down to continue</p>
-                                <p className="fade-in-5">V</p>
+                                <p>Scroll down to continue</p>
+                                <p>V</p>
                             </div>
                         </div>
                     </div>
