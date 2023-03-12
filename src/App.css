@@ -2,35 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body, html {
+    background-color: #202020;
     font-family: 'Rajdhani', sans-serif;
-    background-color: #272727;
-    min-width: 100vw;
-    margin: 0;
-    height: 100vh;
-    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow:visible;
 }
 
-@keyframes helloSlide {
-    0% {
-        font-size: 0px;
-        transform: scale(0);
-    }
-    100% {
-        font-size: 50px;
-        transform: scale(1);
-    }
+.hero {
+    background-color: #202020;
 }
 
 .navbar {
     background-color: transparent;
 }
-
-.hello {
-    margin-top: 1rem;
-    animation-name: helloSlide;
-    animation-duration: 0.5s;
-    animation-iteration-count:inherit;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-  }
