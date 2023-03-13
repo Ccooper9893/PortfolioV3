@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body, html {
-    background-color: #202020;
+    background-color: #121212;
+    /* background: rgb(37,52,63);
+    background: linear-gradient(0deg, rgba(37,52,63,1) 0%, rgba(36,49,58,1) 13%, rgba(34,40,45,1) 28%, rgba(33,38,42,1) 44%, rgba(33,37,40,1) 61%, rgba(32,32,32,1) 100%); */
     font-family: 'Rajdhani', sans-serif;
     height: 100%;
     width: 100%;
@@ -11,7 +13,7 @@ body, html {
 }
 
 .hero {
-    background-color: #202020;
+    background-color: transparent;
 }
 
 .navbar {

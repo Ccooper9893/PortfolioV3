@@ -10,9 +10,9 @@ export default function Home({handlePageChange}) {
         <button className="glass nextPage btn btn-xs sm:btn-sm md:btn-md lg:btn-lg" onClick={() => handlePageChange('About')}>More</button>
           <img className="fade-in-4" src={selfie} alt="Cody Cooper"/>
           <div className="text-center">
-            <h1 className="text-7xl text-white fade-in-1">WELCOME!</h1>
-            <p className="py-3 text-5xl fade-in-2">MY NAME IS <span className="text-yellow-500 fade-in-3">CODY COOPER</span></p>
-            <p className="text-2xl fade-in-5">I AM A <span className="text-blue-400 fade-in-6">FULL STACK WEB DEVELOPER</span></p>
+            <h1 className="text-7xl fade-in-1">WELCOME!</h1>
+            <p className="py-3 text-5xl fade-in-2 text-white">MY NAME IS <span className="text-yellow-500 fade-in-3">CODY COOPER</span></p>
+            <p className="text-2xl fade-in-5 text-white">I AM A <span className="text-blue-400 fade-in-6 shadow">FULL STACK WEB DEVELOPER</span></p>
           </div>
           
         </div>

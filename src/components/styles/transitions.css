@@ -4,6 +4,10 @@
     display: none;
 }
 
+.carousel {
+    height: 50rem;
+}
+
 @media (max-width: 1023px) {
     .nextPage {
       display: block;
