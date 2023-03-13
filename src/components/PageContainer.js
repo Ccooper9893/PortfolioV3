@@ -1,8 +1,7 @@
 // import userEvent from "@testing-library/user-event";
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Header from './Header';
-import Footer from "./Footer";
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -25,15 +24,10 @@ export default function PageContainer() {
         
     };
 
-    useEffect(() => {
-        const container = document.querySelector(".fade-in-container");
-        container.style.opacity = 1;
-    }, []);
-
     const handlePageChange = (page) => setCurrentPage(page);
     
     return (
-        <div className="pageContainer fade-in-container">
+        <div className="pageContainer">
             <Header currentPage={currentPage} handlePageChange={handlePageChange}></Header>
             {renderPage()}
         </div>
