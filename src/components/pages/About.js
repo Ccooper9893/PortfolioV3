@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import '../styles/transitions.css';
 import { useInView, motion } from "framer-motion";
  
 export default function About() {

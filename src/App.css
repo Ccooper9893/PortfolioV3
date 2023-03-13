@@ -20,3 +20,7 @@ body, html {
 .navbar {
     background-color: transparent;
 }
+
+.carousel {
+    height: 50rem;
+}
