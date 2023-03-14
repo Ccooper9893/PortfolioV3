@@ -19,8 +19,7 @@ export default function PageContainer() {
             case 'Resume': return <Resume></Resume>;
             case 'Contact': return <Contact></Contact>;
             default: return <Home></Home>;
-        };
-        
+        };  
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
