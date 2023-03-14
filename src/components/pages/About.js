@@ -13,7 +13,6 @@ export default function About() {
       }, [skillsInView]);
 
     return (
-        <div className="h-96 carousel carousel-vertical rounded-box">
           <div className="carousel-item h-full flex-col mt-20 text-center">
             <h1 className="text-lg lg:text-4xl lg:mt-10 text-blue-400">ABOUT ME</h1>
               <div className="grid lg:grid-cols-3 gap-4 mx-4 border-t-yellow-500 ">
@@ -28,13 +27,12 @@ export default function About() {
                   }}
                 >
                   <h3 className="text-yellow-500 lg:text-2xl shadow-sm shadow-yellow-500">GOALS</h3>
-                  <p className="text-sm md:text-lg">
+                  <p className="text-sm md:text-xl">
                     My goal is to work with a team to develop dynamic and responsive web applications that can make an impact in the tech industry. 
                     I am committed to pursuing opportunities that challenge and push me to grow both personally and professionally as a web developer.
                   </p>
                 </motion.div>
                 <motion.div 
-                  className="text-center lg:mt-20" 
                   animate={{ y: 0, opacity: 1 }} 
                   initial={{ y: '100vh', opacity: 0 }} 
                   transition={{ 
@@ -93,18 +91,6 @@ export default function About() {
                       <p className="text-white opacity-50">V</p>
                   </motion.div>
           </div> 
-
-        <div className="carousel-item h-full justify-center mt-20" ref={skillsRef}>
-          <motion.h1 
-            className="text-3xl lg:text-5xl text-blue-400 text-center lg:mt-10"
-            animate={{ y: 0, opacity: 1 }} 
-            initial={{ y: 0, opacity: 0 }} 
-            transition={{ delay: 0.3 }} 
-          >
-          MY SKILLS
-          </motion.h1>
-        </div> 
-      </div>
     );
 };
 

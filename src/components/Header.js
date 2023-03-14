@@ -26,6 +26,7 @@ export default function Header({ currentPage, handlePageChange}) {
         <ul className="menu menu-horizontal px-1">
           <li><button className={currentPage === 'Home' ? 'active' : 'nav-link'} onClick={() => handlePageChange('Home')}>Home</button></li>
           <li><button className={currentPage === 'About' ? 'active' : 'nav-link'} onClick={() => handlePageChange('About')}>About</button></li>
+          <li><button className={currentPage === 'Skills' ? 'active' : 'nav-link'} onClick={() => handlePageChange('Skills')}>Skills</button></li>
           <li><button className={currentPage === 'Projects' ? 'active' : 'nav-link'} onClick={() => handlePageChange('Projects')}>Projects</button></li>
           <li><button className={currentPage === 'Resume' ? 'active' : 'nav-link'} onClick={() => handlePageChange('Resume')}>Resume</button></li>
           <li><button className={currentPage === 'Contact' ? 'active' : 'nav-link'} onClick={() => handlePageChange('Contact')}>Contact</button></li>
