@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from './Header';
 import Home from './pages/Home';
 import About from './pages/About';
+import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
@@ -14,7 +15,8 @@ export default function PageContainer() {
     const renderPage = () => {
         switch (currentPage) {
             case 'Home': return <Home handlePageChange={handlePageChange}></Home>;
-            case 'About': return <About></About>;
+            case 'About': return <About handlePageChange={handlePageChange}></About>;
+            case 'Skills': return <Skills handlePageChange={handlePageChange}></Skills>;
             case 'Projects': return <Projects></Projects>;
             case 'Resume': return <Resume></Resume>;
             case 'Contact': return <Contact></Contact>;

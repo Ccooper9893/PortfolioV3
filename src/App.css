@@ -10,14 +10,11 @@ body, html {
     overflow:auto;
 }
 
-.hero {
+.hero, .about {
     background-color: transparent;
+    overflow: hidden;
 }
 
 .navbar {
     background-color: transparent;
-}
-
-.carousel {
-    height: 50rem;
 }
