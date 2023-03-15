@@ -96,7 +96,7 @@ export default function About({ handlePageChange }) {
                 </div>
                 <h3 className="text-yellow-500 lg:text-2xl shadow-sm">TRAITS</h3>
                   <p className="text-lg lg:text-xl mx-8">
-                  As a diligent and courteous individual, I hold great regard for gaining knowledge from others and firmly believe that attentive listening is crucial for continuous learning. During my leisure time I like to woodcarve, code, .
+                    As a diligent and courteous individual, I hold great regard for gaining knowledge from others and firmly believe that attentive listening is crucial for continuous learning. During my free time I like to either read, woodcarve, cook, or go outside and enjoy the outdoors! 
                   </p>
               </motion.div>
 

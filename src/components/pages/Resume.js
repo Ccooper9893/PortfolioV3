@@ -66,7 +66,7 @@ export default function Resume({handlePageChange}) {
             </motion.a>
             <div>
                 <motion.button 
-                className='text-lg lg:text-xl animate-pulse p-0 text-amber-500 mt-8 hover:text-white' 
+                className='text-lg lg:text-xl animate-pulse p-0 text-amber-500 my-8 hover:text-white' 
                 onClick={() => handlePageChange('Contact')} 
                 animate={{ x: 0, opacity: 1 }} 
                 initial={{ x: 0, opacity: 0 }} 
