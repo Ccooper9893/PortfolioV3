@@ -44,14 +44,14 @@ export default function Home({handlePageChange}) {
             <motion.p 
               animate={{ x: 0, opacity: 1 }} 
               initial={{ x: '0', opacity: 0 }} 
-              transition={{ delay: 4.5 }} 
+              transition={{ delay: 4 }} 
               className="text-2xl"
             >
               I AM A  
               <motion.span 
                 animate={{ x: 0, opacity: 1 }} 
                 initial={{ x: '0', opacity: 0 }} 
-                transition={{ delay: 5 }} 
+                transition={{ delay: 4.5 }} 
                 className="text-blue-400"
               > FULL STACK WEB DEVELOPER
               </motion.span>
@@ -62,14 +62,14 @@ export default function Home({handlePageChange}) {
                 alt="MongoDB" src={mongoIcon.toString()} 
                 animate={{ x: 0, opacity: 1 }} 
                 initial={{ x: -100, opacity: 0 }} 
-                transition={{ delay: 6.8 }} 
+                transition={{ delay: 6.4 }} 
               />
               <motion.img 
                 className='w-12 hover:animate-pulse' 
                 alt="Express" src={expressIcon.toString()} 
                 animate={{ x: 0, opacity: 1 }} 
                 initial={{ x: -100, opacity: 0 }} 
-                transition={{ delay: 6.6 }} 
+                transition={{ delay: 6.2 }} 
               />
               <motion.img 
                 className='w-12 hover:animate-pulse' 
@@ -77,7 +77,7 @@ export default function Home({handlePageChange}) {
                 src={reactIcon.toString()} 
                 animate={{ x: 0, opacity: 1 }} 
                 initial={{ x: -100, opacity: 0 }} 
-                transition={{ delay: 6.4 }} 
+                transition={{ delay: 6 }} 
               />
               <motion.img 
                 className='w-12 hover:animate-pulse' 
@@ -85,7 +85,7 @@ export default function Home({handlePageChange}) {
                 src={nodeIcon.toString()} 
                 animate={{ x: 0, opacity: 1 }} 
                 initial={{ x: -100, opacity: 0 }} 
-                transition={{ delay: 6.2 }} 
+                transition={{ delay: 5.8 }} 
               />
             </div>
             <motion.button 

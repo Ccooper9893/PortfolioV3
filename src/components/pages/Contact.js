@@ -59,6 +59,10 @@ export default function Contact() {
         setName('');
         setEmail('');
         setMessage('');
+        return;
+    } else {
+        setErrorMessage('Please provide required information')
+        return;
     }
   };
 
@@ -66,7 +70,12 @@ export default function Contact() {
         <div>
             <h1 className="text-center text-4xl lg:text-6xl text-blue-400 mt-5">CONTACT</h1>
             <div className="flex justify-center bg-gray">
-                <div className=" w-60 lg:w-80 mt-10 border-1 border-black shadow-lg shadow-gray-700 rounded-lg p-3 bg-zinc-900">
+                <motion.div 
+                    className=" w-60 lg:w-80 mt-10 border-1 border-black shadow-lg shadow-gray-700 rounded-lg p-3 bg-zinc-800"
+                    animate={{ opacity: 1 }} 
+                    initial={{ opacity: 0 }} 
+                    transition={{ type:'spring',delay: 0.3 }}
+                >
                     <div className="form-control w-full max-w-lg">
                         <label className="label">
                             <span className="label-text text-xl text-white">Name:</span>
@@ -115,7 +124,7 @@ export default function Contact() {
                     <div className="flex justify-center flex-col my-5">
                         <button 
                             type="submit" 
-                            className="btn mx-16 btn-active border-none btn-accent hover:bg-green-700"
+                            className="btn mx-16 btn-active border-none btn-accent hover:bg-yellow-500"
                             onClick={handleSubmit}
                         >
                             Send
@@ -124,10 +133,8 @@ export default function Contact() {
                             <h5 className="text-center text-xl mt-3 text-green-600">{successMessage}</h5>
                         )}
                     </div>
-                </div>
-
+                </motion.div>
             </div>
-
         </div>
     )
 };
