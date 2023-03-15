@@ -110,7 +110,7 @@ export default function About({ handlePageChange }) {
             </div>
             <motion.button 
               className='text-lg lg:text-2xl animate-pulse p-0 mt-8 mb-10 text-amber-500 hover:text-white' 
-              onClick={() => handlePageChange('Skills')} 
+              onClick={() => handlePageChange('Projects')} 
               animate={{ x: 0, opacity: 1 }} 
               initial={{ x: '-100vh', opacity: 0 }} 
               transition={{ type:'spring',delay: 2 }}
