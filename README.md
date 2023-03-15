@@ -37,15 +37,21 @@ This project was built using a combination of technologies and tools, including:
 - GIMP: An open-source image editing software that can be used for creating and editing graphics and images.
 - gh-pages: A tool that allows you to deploy your web application to GitHub Pages, a free hosting service offered by GitHub.
 
-## *Resources*
-___
-
-
 ## *License*
 ___
+This application is covered under the MIT license.
+
+For more information about this license please visit https://opensource.org/licenses/MIT
 
 ## *Questions*
 ___
+For comments/concerns please contact me by one of the following:
+
+LinkedIn: https://www.linkedin.com/in/cody-cooper-3a951a24b/
+
+Github: https://github.com/Ccooper9893
+
+Github Repo: https://github.com/Ccooper9893/Text-Editor
 
 ## *Screenshots*
 ___
