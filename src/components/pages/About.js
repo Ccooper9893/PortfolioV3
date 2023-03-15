@@ -10,22 +10,15 @@ import lightbulb from '../../assets/icons/lightbulb.png';
 export default function About({ handlePageChange }) {
     return (
           <div className="h-full flex-col text-center about mt-3">
-            <motion.h1 
-              className="text-6xl text-blue-400"animate={{ opacity: 1 }} 
-              initial={{ opacity: 0 }} 
-              transition={{ delay: 0.2 }}
-              >
-                ABOUT ME
-            </motion.h1>
+            <h1 className="text-6xl text-blue-400">ABOUT</h1>
             <div className="grid lg:grid-cols-2 mt-4">
 
-
             <motion.div 
-            className="p-4"
-                animate={{ x: 0, opacity: 1 }} 
-                initial={{ x: '-100vw', opacity: 0 }} 
-                transition={{ type: 'tween', ease: "easeIn", delay: 0.2 }}
-              >
+              className="p-4"
+              animate={{ y: 0, opacity: 1 }} 
+              initial={{ y: '100vh', opacity: 0 }} 
+              transition={{ type: 'tween', ease: "easeIn", delay: 0.2 }}
+            >
               <div className="flex relative justify-center mb-14 opacity-90">
                   <motion.img 
                     src={bigGear} 
@@ -49,22 +42,22 @@ export default function About({ handlePageChange }) {
                     >
                   </img>
                 </div>
-                <motion.h3 className="text-yellow-500 lg:text-2xl shadow-sm">DRIVE</motion.h3>
-                <motion.p className="text-lg lg:text-xl mx-8">
+                <h3 className="text-yellow-500 lg:text-2xl shadow-sm">DRIVE</h3>
+                <p className="text-lg lg:text-xl mx-8">
                 As a developer, I am driven by an insatiable curiosity to explore new technologies and advance my skills. From designing immersive games with Unity, to engineering complex machines with Autodesk, and creating stunning visuals with Photoshop, I am constantly pushing the boundaries of what I can create. My passion for learning fuels my ambition to expand my toolkit and tackle new challenges, always striving to innovate and create impactful solutions.
-                </motion.p>
-              </motion.div>
+                </p>
+            </motion.div>
 
-              <motion.div  
+            <motion.div  
               className="p-4"
-                animate={{ x: 0, opacity: 1 }} 
-                initial={{ x: '100vh', opacity: 0 }} 
-                transition={{ 
-                  type:"tween", 
-                  ease: "easeIn", 
-                  delay: 0.4 
-                }}
-              >
+              animate={{ y: 0, opacity: 1 }} 
+              initial={{ y: '100vh', opacity: 0 }} 
+              transition={{ 
+                type:"tween", 
+                ease: "easeIn", 
+                delay: 0.4 
+              }}
+            >
                 <div className="flex justify-center mt-2">
                   <img className="flex justify-center opacity-90 w-28 mb-8" src={target} alt="arrow target">
                   </img>
@@ -74,27 +67,27 @@ export default function About({ handlePageChange }) {
                   My goal is to work with a team to develop dynamic and responsive web applications that can make an impact in the tech industry. 
                   I am committed to pursuing opportunities that challenge and push me to grow both personally and professionally as a web developer.
                 </p>
-              </motion.div>
+            </motion.div>
 
-              <motion.div 
-                className="text-center mt-7 p-4"
-                animate={{ x: 0, opacity: 1 }} 
-                initial={{ x: '-100vw', opacity: 0 }} 
-                transition={{ type:"tween", ease: "easeIn", delay: 0.6 }}
-              >
+            <motion.div 
+              className="text-center mt-7 p-4"
+              animate={{ y: 0, opacity: 1 }} 
+              initial={{ y: '100vh', opacity: 0 }} 
+              transition={{ type:"tween", ease: "easeIn", delay: 0.6 }}
+            >
                 <div className="flex justify-center mb-7 mt-2">
                   <img className="opacity-90 w-28" src={briefcase} alt="briefcase">
                     </img>
                 </div>
                 <h3 className="text-yellow-500 lg:text-2xl shadow-sm mt-6">EXPERIENCE</h3>
-                  <motion.p className="text-lg lg:text-xl mx-8">
+                  <p className="text-lg lg:text-xl mx-8">
                       My background in customer service and team leadership roles has given me the ability to communicate effectively and work collaboratively. Having built and led a team of over 40 employees, I understand the importance of effective communication.
-                  </motion.p>
+                  </p>
               </motion.div>
 
               <motion.div 
                 className="p-4"
-                animate={{ x: 0, opacity: 1 }} initial={{ x: '100vh', opacity: 0 }} 
+                animate={{ y: 0, opacity: 1 }} initial={{ y: '100vh', opacity: 0 }} 
                 transition={{ type:"tween", ease: "easeIn", delay: 0.8 }}
               >
                 <div className="flex justify-center">
@@ -102,9 +95,9 @@ export default function About({ handlePageChange }) {
                     </img>
                 </div>
                 <h3 className="text-yellow-500 lg:text-2xl shadow-sm">TRAITS</h3>
-                  <motion.p className="text-lg lg:text-xl mx-8">
+                  <p className="text-lg lg:text-xl mx-8">
                   As a diligent and courteous individual, I hold great regard for gaining knowledge from others and firmly believe that attentive listening is crucial for continuous learning. During my leisure time I like to woodcarve, code, .
-                  </motion.p>
+                  </p>
               </motion.div>
 
             </div>

@@ -4,7 +4,7 @@ import linkedLogo from '../assets/icons/linkedinWhite.png';
 
 export default function Header({ currentPage, handlePageChange}) {
   return (
-    <div className="navbar bg-base-100 shadow-lg shadow-stone-800">
+    <div className="navbar bg-base-100">
 
       <div className="navbar-start">
         <div className="dropdown dropdown-hover z-10">
