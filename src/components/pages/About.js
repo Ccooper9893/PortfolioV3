@@ -51,8 +51,7 @@ export default function About({ handlePageChange }) {
                 </div>
                 <motion.h3 className="text-yellow-500 lg:text-2xl shadow-sm">DRIVE</motion.h3>
                 <motion.p className="text-lg lg:text-xl mx-8">
-                    My passion lies in building dynamic, user-friendly web applications that solve real-world problems. 
-                    I am eager to continue growing as a developer and to contribute to innovative solutions that push the boundaries of what is possible in web development.
+                As a developer, I am driven by an insatiable curiosity to explore new technologies and advance my skills. From designing immersive games with Unity, to engineering complex machines with Autodesk, and creating stunning visuals with Photoshop, I am constantly pushing the boundaries of what I can create. My passion for learning fuels my ambition to expand my toolkit and tackle new challenges, always striving to innovate and create impactful solutions.
                 </motion.p>
               </motion.div>
 
@@ -104,7 +103,7 @@ export default function About({ handlePageChange }) {
                 </div>
                 <h3 className="text-yellow-500 lg:text-2xl shadow-sm">TRAITS</h3>
                   <motion.p className="text-lg lg:text-xl mx-8">
-                  As a diligent and courteous individual, I hold great regard for gaining knowledge from others. During my leisure time, I take pleasure in practicing woodworking and coding. I firmly believe that attentive listening is crucial for continuous personal and professional development.
+                  As a diligent and courteous individual, I hold great regard for gaining knowledge from others and firmly believe that attentive listening is crucial for continuous learning. During my leisure time I like to woodcarve, code, .
                   </motion.p>
               </motion.div>
 
