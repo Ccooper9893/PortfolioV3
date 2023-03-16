@@ -55,3 +55,23 @@ Github Repo: https://github.com/Ccooper9893/Text-Editor
 
 ## *Screenshots*
 ___
+
+Home Page
+
+<img src="./public/screenshots/homePage.png" alt="Screenshot of my homepage" width="600">
+
+About Page
+
+<img src="./public/screenshots/aboutPage.png" alt="Screenshot of my about page" width="600">
+
+Projects Page
+
+<img src="./public/screenshots/projectPage.png" alt="Screenshot of my projects page" width="600">
+
+Skills Page
+
+<img src="./public/screenshots/skillsPage.png" alt="Screenshot of my skills page" width="600">
+
+Contact Page
+
+<img src="./public/screenshots/contactPage.png" alt="Screenshot of my contact form page" width="600">
