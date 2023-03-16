@@ -69,7 +69,7 @@ export default function Resume({handlePageChange}) {
                 className='text-lg lg:text-xl animate-pulse p-0 text-amber-500 my-8 hover:text-white' 
                 onClick={() => handlePageChange('Contact')} 
                 animate={{ x: 0, opacity: 1 }} 
-                initial={{ x: 0, opacity: 0 }} 
+                initial={{ x: '-100vw', opacity: 0 }} 
                 transition={{ type:'spring', delay: 2 }}
                 >
                 Continue &#x2192;

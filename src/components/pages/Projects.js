@@ -8,7 +8,7 @@ import apiPic from "../../assets/screenshots/mongoApi.png";
 import getFitLogo from "../../assets/screenshots/MuscleLogoNoCircle.png";
 import omegaBlogsLogo from "../../assets/screenshots/omegaLogo.png";
 import popcornLogo from "../../assets/screenshots/popcornLogo.png";
-import jateLogo from "../../assets/icons/JateLogo.png";
+import jateLogo from "../../assets/icons/JateLogoblue.png";
 import apiLogo from "../../assets/icons/apiLogo.png";
 import githubLogo from "../../assets//icons/GithubLogowhite.png";
 import websiteIcon from "../../assets/icons/linkIcon.png";
@@ -72,7 +72,7 @@ export default function Skills({ handlePageChange }) {
                         <div className="modal-box bg-stone-900 border border-black">
                             <h3 className="text-6xl text-yellow-500 border-b border-yellow-400">Omega Blogs</h3>
                             <p className="py-4 text-xl text-white">
-                                Omega Blogs is a space in which you can share your ideas and gain knowledge from others. Created using MVP (Mode-View-Controller) paradigm and OOP (Object-Oriented-Programming), Omega Blogs has a simple yet powerful design that has true potential. 
+                                Omega Blogs is a space in which you can share your ideas and gain knowledge from others. Created using MVP (Mode-View-Controller) paradigm and OOP (Object-Oriented-Programming). 
                             </p>
                             <img src={omegaBlogsPic} alt="Blogging website"></img>
                             <div className="modal-action justify-between">
@@ -195,8 +195,8 @@ export default function Skills({ handlePageChange }) {
             <motion.button 
               className='text-lg lg:text-xl animate-pulse p-0 mt-20 lg:mt-44 mb-10 text-amber-500 hover:text-white' 
               onClick={() => handlePageChange('Resume')} 
-              animate={{ opacity: 1 }} 
-              initial={{ opacity: 0 }} 
+              animate={{ x: 0, opacity: 1 }} 
+              initial={{ x: '-100vw', opacity: 0 }} 
               transition={{ type:'spring',delay: 2.5 }}
             >
               Continue &#x2192;
