@@ -51,25 +51,29 @@ Github: https://github.com/Ccooper9893
 
 Github Repo: https://github.com/Ccooper9893/Text-Editor
 
-## *Screenshots*
+## *Screenshots (Mobile/Desktop)*
 ___
 
-Home Page
+### Home Page
 
+<img src="./public/screenshots/mobileView.png" alt="Screenshot of my home page on a mobile phone" width="200">
 <img src="./public/screenshots/homePage.png" alt="Screenshot of my homepage" width="600">
 
-About Page
+### About Page
 
+<img src="./public/screenshots/mobileViewAbout.png" alt="Screenshot of my home page on a mobile phone" width="200">
 <img src="./public/screenshots/aboutPage.png" alt="Screenshot of my about page" width="600">
 
-Projects Page
+### Projects Page
 
+<img src="./public/screenshots/mobileViewProjects.png" alt="Screenshot of my projects page on a mobile phone" width="200">
 <img src="./public/screenshots/projectPage.png" alt="Screenshot of my projects page" width="600">
 
-Skills Page
+### Skills Page
 
+<img src="./public/screenshots/mobileViewSkills.png" alt="Screenshot of my skills page on a mobile phone" width="200">
 <img src="./public/screenshots/skillsPage.png" alt="Screenshot of my skills page" width="600">
 
-Contact Page
+### Contact Page
 
 <img src="./public/screenshots/contactPage.png" alt="Screenshot of my contact form page" width="600">
