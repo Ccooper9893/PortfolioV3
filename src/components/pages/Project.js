@@ -1,5 +1,3 @@
-/* delay, modalId, logoImg, logoAlt, title, summary, screenshot, screenshotAlt, githubLink, websiteLink  */
-
 import React from "react";
 import { motion } from "framer-motion";
 import githubLogo from "../../assets//icons/GithubLogowhite.png";
@@ -28,7 +26,6 @@ export default function Project(props) {
       initial={{ opacity: 0 }}
       transition={{ type: "tween", delay: delay }}
     >
-      {/* The button to open modal */}
       <label
         htmlFor={modalId}
         className="btn bg-transparent border-none hover:bg-transparent opacity-70 hover:opacity-100"
@@ -36,7 +33,6 @@ export default function Project(props) {
         <img className={logoWidth} alt={logoAlt} src={logoImg}></img>
       </label>
 
-      {/* Put this part before </body> tag */}
       <input type="checkbox" id={modalId} className="modal-toggle" />
       <div className="modal">
         <div className="modal-box bg-stone-900 border border-black">
