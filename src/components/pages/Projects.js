@@ -15,7 +15,7 @@ import websiteIcon from "../../assets/icons/linkIcon.png";
 
 export default function Skills({ handlePageChange }) {
   return (
-    <div className="mb-20 flex flex-col overflow-hidden">
+    <div className="flex flex-col overflow-hidden">
       <h1 className="text-center text-4xl lg:text-6xl text-blue-400 mt-5">
         PROJECTS
       </h1>

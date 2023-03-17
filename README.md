@@ -9,9 +9,7 @@ This README provides an overview of my personal web portfolio, which showcases m
  ___
 
   - [Features](#features)
-  - [Usage](#usage)
   - [Software](#software)
-  - [Resources](#resources)
   - [License](#license)
   - [Questions](#questions)
   - [Screenshots](#screenshots)
