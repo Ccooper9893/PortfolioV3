@@ -99,8 +99,8 @@ export default function About({ handlePageChange }) {
           <p className="text-lg lg:text-xl mx-8">
             My background in customer service and team leadership roles has
             given me the ability to communicate effectively and work
-            collaboratively. Having built and led a team of over 40 employees, I
-            understand the importance of effective communication.
+            collaboratively. Having built and led an amazing team of over 40 employees, I
+            understand the importance of effective communication and a positive work environment. Teamwork makes the dream work!  
           </p>
         </motion.div>
 
@@ -122,8 +122,8 @@ export default function About({ handlePageChange }) {
             As a diligent and courteous individual, I hold great regard for
             gaining knowledge from others and firmly believe that attentive
             listening is crucial for continuous learning. During my free time I
-            like to either read, woodcarve, cook, or go outside and enjoy the
-            outdoors!
+            like to either read, code, woodcarve, cook, or go outside and enjoy the
+            outdoors! 
           </p>
         </motion.div>
       </div>
