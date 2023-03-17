@@ -52,7 +52,7 @@ export default function Skills({ handlePageChange }) {
       logoAlt: "GetFit logo",
       screenshotAlt: "GetFit website",
       githubLink: "https://github.com/Jelenarog/Workout-planner",
-      websiteLink: "https://workout-planner.herokuapp.com/",
+      websiteLink: "https://getfit-fitness-tracker.herokuapp.com/",
       modalId: "getFitModal",
       delay: 1,
     },
