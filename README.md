@@ -71,9 +71,9 @@ ___
 
 ### Skills Page
 
-<img src="./public/screenshots/mobileViewSkills.png" alt="Screenshot of my skills page on a mobile phone" width="200">
+<img src="./public/screenshots/MobileViewSkills.png" alt="Screenshot of my skills page on a mobile phone" width="200">
 <img src="./public/screenshots/skillsPage.png" alt="Screenshot of my skills page" width="600">
 
 ### Contact Page
-fdf
+
 <img src="./public/screenshots/contactPage.png" alt="Screenshot of my contact form page" width="600">
