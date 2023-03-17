@@ -96,7 +96,7 @@ export default function Home({ handlePageChange }) {
             />
           </div>
           <motion.button
-            className="text-lg animate-pulse p-0 mt-3 hover:font-bold"
+            className="text-lg animate-pulse p-0 mt-3 text-slate-400 hover:font-bold"
             onClick={() => handlePageChange("About")}
             animate={{ x: 0, opacity: 1 }}
             initial={{ x: -100, opacity: 0 }}

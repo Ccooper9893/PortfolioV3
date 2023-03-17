@@ -128,10 +128,10 @@ export default function About({ handlePageChange }) {
         </motion.div>
       </div>
       <motion.button
-        className="text-lg lg:text-xl animate-pulse p-0 mt-8 mb-10 text-amber-500 hover:text-white"
+        className="text-lg lg:text-xl animate-pulse p-0 mt-8 mb-10 text-slate-400 hover:text-white"
         onClick={() => handlePageChange("Projects")}
         animate={{ x: 0, opacity: 1 }}
-        initial={{ x: "-100vh", opacity: 0 }}
+        initial={{ x: "-30vw", opacity: 0 }}
         transition={{ type: "spring", delay: 2 }}
       >
         Continue &#x2192;
