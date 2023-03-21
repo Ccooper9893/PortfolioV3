@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { validate } from "email-validator";
 import emailjs from '@emailjs/browser';
 
+
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -59,14 +60,14 @@ export default function Contact() {
   
     emailjs
       .send(
-        process.env.EMAILJS_SERVICE_ID,
-        process.env.EMAILJS_TEMPLATE_ID,
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         {
           name: name,
           email: email,
           message: message,
         },
-        process.env.EMAILJS_PUBLIC_KEY
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
