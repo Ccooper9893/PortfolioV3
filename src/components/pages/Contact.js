@@ -67,7 +67,7 @@ export default function Contact() {
           email: email,
           message: message,
         },
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        '3N05w40sHCa9AFukg'
       )
       .then(
         (result) => {
@@ -84,7 +84,7 @@ export default function Contact() {
       );
   };
 
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
   
