@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { validate } from "email-validator";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -13,7 +14,6 @@ export default function Contact() {
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
-    console.log("Form blurred");
     console.log("Form blurred");
 
     if (inputType === "name" && !inputValue) {
@@ -54,16 +54,41 @@ export default function Contact() {
     }
   };
 
-  const handleSubmit = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    emailjs
+      .send(
+        process.env.EMAILJS_SERVICE_ID,
+        process.env.EMAILJS_TEMPLATE_ID,
+        {
+          name: name,
+          email: email,
+          message: message,
+        },
+        process.env.EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          setSuccessMessage("Your message has been sent!");
+          setName("");
+          setEmail("");
+          setMessage("");
+          console.log(result.text)
+        },
+        (error) => {
+          setErrorMessage("There was an error sending your message. Please try again.");
+        }
+      );
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  
     if (name && email && message) {
-      setSuccessMessage("Your message has been sent!");
-      setName("");
-      setEmail("");
-      setMessage("");
-      return;
+      sendEmail(e);
     } else {
       setErrorMessage("Please provide required information");
-      return;
     }
   };
 
