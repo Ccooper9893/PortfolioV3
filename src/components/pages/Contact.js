@@ -75,6 +75,7 @@ export default function Contact() {
           setEmail("");
           setMessage("");
           console.log(result.text)
+          console.log(result);
         },
         (error) => {
           setErrorMessage("There was an error sending your message. Please try again.");
