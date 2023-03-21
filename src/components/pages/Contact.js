@@ -72,7 +72,7 @@ export default function Contact() {
       <h1 className="text-center text-4xl lg:text-6xl text-blue-400 mt-5">
         CONTACT
       </h1>
-      <div className="flex justify-center bg-gray">
+      <div className="flex justify-center mb-10 bg-gray">
         <motion.div
           className=" w-60 lg:w-80 mt-10 border-1 border-black shadow-lg shadow-gray-700 rounded-lg p-3 bg-zinc-800"
           animate={{ opacity: 1 }}
