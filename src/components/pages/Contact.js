@@ -84,6 +84,7 @@ export default function Contact() {
       );
   };
 
+  
   const handleSubmit = (e) => {
     e.preventDefault();
   
