@@ -26,7 +26,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/NBADRAUN/Bring-Popcorn",
       websiteLink: "https://nbadraun.github.io/Bring-Popcorn/",
       modalId: "bringPopcornModal",
-      delay: 1.5,
+      delay: 1.2,
     },
     {
       title: "Omega Blogs",
@@ -40,7 +40,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Omega-Blogs",
       websiteLink: "https://omega-blogs.herokuapp.com/",
       modalId: "omegaBlogsModal",
-      delay: 1.2,
+      delay: 0.8,
     },
     {
       title: "GetFit",
@@ -54,7 +54,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Jelenarog/Workout-planner",
       websiteLink: "https://getfit-fitness-tracker.herokuapp.com/",
       modalId: "getFitModal",
-      delay: 1,
+      delay: 0.4,
     },
     {
       title: "J.A.T.E",
@@ -68,7 +68,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Text-Editor",
       websiteLink: "https://lit-island-48530.herokuapp.com/",
       modalId: "jateModal",
-      delay: 1.2,
+      delay: 0.8,
     },
     {
       title: "Social Network API",
@@ -82,7 +82,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Social-Networking-API",
       websiteLink: "https://github.com/Ccooper9893/Social-Networking-API",
       modalId: "socialMediaModal",
-      delay: 1.5,
+      delay: 1.2,
     },
   ];
 

@@ -46,11 +46,10 @@ export default function About({ handlePageChange }) {
           <p className="text-lg lg:text-xl mx-8">
             As a developer, I am driven by an insatiable curiosity to explore
             new technologies and advance my skills. From designing immersive
-            games with Unity, to engineering complex machines with Autodesk, and
-            creating stunning visuals with Photoshop, I am constantly pushing
+            games with Unity, to reverse engineering a blender with Autodesk, I am constantly pushing
             the boundaries of what I can create. My passion for learning fuels
             my ambition to expand my toolkit and tackle new challenges, always
-            striving to innovate and create impactful solutions.
+            striving to innovate and create impactful solutions that can make a difference.
           </p>
         </motion.div>
 
@@ -73,10 +72,7 @@ export default function About({ handlePageChange }) {
           </div>
           <h3 className="text-yellow-500 lg:text-2xl shadow-sm">GOALS</h3>
           <p className="text-lg lg:text-xl mx-8">
-            My goal is to work with a team to develop dynamic and responsive web
-            applications that can make an impact in the tech industry. I am
-            committed to pursuing opportunities that challenge and push me to
-            grow both personally and professionally as a web developer.
+          My goal is to pursue a career in coding because it's something that I absolutely love doing. I am always eager to learn more and improve my skills, and I find myself spending hours reading documentation and daydreaming about code. I'm excited about the prospect of working with others to build something truly amazing - something that can change lives, no matter how big or small.
           </p>
         </motion.div>
 
@@ -97,10 +93,7 @@ export default function About({ handlePageChange }) {
             EXPERIENCE
           </h3>
           <p className="text-lg lg:text-xl mx-8">
-            My background in customer service and team leadership roles has
-            given me the ability to communicate effectively and work
-            collaboratively. Having built and led an amazing team of over 40 employees, I
-            understand the importance of effective communication and a positive work environment. Teamwork makes the dream work!  
+          As a Full Stack web developer, I have created numerous applications that range from simple static webpages to complex MERN stack applications. My experience includes developing websites that are responsive, intuitive, and visually appealing, using a variety of programming languages and frameworks. In addition to my technical expertise, I have leadership experience as a general manager where I led a team consisting of over 40 people. This experience taught me the importance of effective communication and treating others with respect. I am excited about utilizing my diverse skill set to create innovative solutions and collaborate with others to make an impact. 
           </p>
         </motion.div>
 
@@ -119,11 +112,8 @@ export default function About({ handlePageChange }) {
           </div>
           <h3 className="text-yellow-500 lg:text-2xl shadow-sm">TRAITS</h3>
           <p className="text-lg lg:text-xl mx-8">
-            As a diligent and courteous individual, I hold great regard for
-            gaining knowledge from others and firmly believe that attentive
-            listening is crucial for continuous learning. During my free time I
-            like to either read, code, woodcarve, cook, or go outside and enjoy the
-            outdoors! 
+          I strongly value the principles of hard work and respect, and these values have been the guiding force in my personal and professional life. Whether it's working on personal projects or collaborating with a team, I believe that a positive and respectful work environment is essential for success.
+      I never shy away from an opportunity to lend or receive a helping hand, and I take pride in my ability to communicate effectively and work collaboratively with others. Learning new skills and pushing myself beyond my limits is something that I thoroughly enjoy, and I am constantly seeking opportunities to challenge myself and grow both personally and professionally.
           </p>
         </motion.div>
       </div>

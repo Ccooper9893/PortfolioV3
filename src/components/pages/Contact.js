@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { validate } from "email-validator";
+import emailjs from "@emailjs/browser";
+
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -8,6 +10,8 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
+  const form = useRef();
+
 
   const handleBlur = (e) => {
     const { target } = e;
@@ -16,10 +20,10 @@ export default function Contact() {
     console.log("Form blurred");
     console.log("Form blurred");
 
-    if (inputType === "name" && !inputValue) {
+    if (inputType === "user_name" && !inputValue) {
       setErrorMessage("Please enter your name!");
       return;
-    } else if (inputType === "email" && !validate(inputValue)) {
+    } else if (inputType === "user_email" && !validate(inputValue)) {
       setErrorMessage("Please enter a valid email!");
       return;
     } else if (inputType === "message" && !inputValue) {
@@ -38,12 +42,13 @@ export default function Contact() {
     console.log(inputValue);
 
     setSuccessMessage("");
+    setErrorMessage("");
 
     switch (inputType) {
-      case "name":
+      case "user_name":
         setName(inputValue);
         break;
-      case "email":
+      case "user_email":
         setEmail(inputValue);
         break;
       case "message":
@@ -54,9 +59,16 @@ export default function Contact() {
     }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     if (name && email && message) {
-      setSuccessMessage("Your message has been sent!");
+      emailjs.sendForm('service_0ibywxi', 'template_dhwv5mr', form.current, '3N05w40sHCa9AFukg')
+      .then((result) => {
+          console.log(result.text);
+          setSuccessMessage("Your message has been sent!");
+      }, (error) => {
+          console.log(error);
+      });
       setName("");
       setEmail("");
       setMessage("");
@@ -72,7 +84,7 @@ export default function Contact() {
       <h1 className="text-center text-4xl lg:text-6xl text-blue-400 mt-5">
         CONTACT
       </h1>
-      <div className="flex justify-center mb-10 bg-gray">
+      <form ref={form} onSubmit={handleSubmit} className="flex justify-center mb-10 bg-gray">
         <motion.div
           className=" w-60 lg:w-80 mt-10 border-1 border-black shadow-lg shadow-gray-700 rounded-lg p-3 bg-zinc-800"
           animate={{ opacity: 1 }}
@@ -85,8 +97,9 @@ export default function Contact() {
             </label>
             <input
               className="input input-bordered w-full max-w-xs text-lg bg-gray-200 text-black"
+              autoComplete="off"
               type="text"
-              name="name"
+              name="user_name"
               placeholder="Enter your name"
               value={name}
               onChange={handleInputChange}
@@ -99,20 +112,22 @@ export default function Contact() {
             </label>
             <input
               className="input input-bordered w-full max-w-xs text-lg bg-gray-200 text-black"
+              autoComplete="off"
               type="email"
-              name="email"
+              name="user_email"
               placeholder="Enter your email"
               value={email}
               onChange={handleInputChange}
               onBlur={(e) => handleBlur(e)}
             />
           </div>
-          <div className="form-control w-full max-w-lg">
+          <div className="form-control w-full max-w-lg mt-3">
             <label className="label">
               <span className="label-text text-xl text-white">Message:</span>
             </label>
-            <input
-              className="input input-bordered w-full max-w-xs text-lg bg-gray-200 text-black"
+            <textarea 
+              className="text-area input input-bordered w-full max-w-xs text-lg pt-2 bg-gray-200 text-black"
+              autoComplete="off"
               type="text"
               name="message"
               placeholder="Send me a message!"
@@ -130,8 +145,8 @@ export default function Contact() {
           <div className="flex justify-center flex-col my-5">
             <button
               type="submit"
-              className="btn mx-16 btn-active border-none btn-accent hover:bg-yellow-500"
-              onClick={handleSubmit}
+              className="btn mx-24 btn-active border-none btn-accent hover:bg-yellow-500"
+              
             >
               Send
             </button>
@@ -142,7 +157,7 @@ export default function Contact() {
             )}
           </div>
         </motion.div>
-      </div>
+      </form>
     </div>
   );
 }
