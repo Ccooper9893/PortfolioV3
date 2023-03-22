@@ -34,6 +34,7 @@ This project was built using a combination of technologies and tools, including:
 - Framer Motion: A popular animation library for React that allows you to create fluid and responsive animations.
 - GIMP: An open-source image editing software that can be used for creating and editing graphics and images.
 - gh-pages: A tool that allows you to deploy your web application to GitHub Pages, a free hosting service offered by GitHub.
+- emailjs: A JavaScript library that provides a simple API for sending emails from client-side JavaScript applications without the need for a server-side implementation.
 
 ## *License*
 ___
