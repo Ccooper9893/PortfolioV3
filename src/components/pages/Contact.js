@@ -84,53 +84,50 @@ export default function Contact() {
       <h1 className="text-center text-4xl lg:text-6xl text-blue-400 mt-5">
         CONTACT
       </h1>
-      <form ref={form} onSubmit={handleSubmit} className="flex justify-center mb-10 bg-gray">
+      <form ref={form} onSubmit={handleSubmit} className="w-3/5 m-auto flex justify-center mb-10 bg-gray">
         <motion.div
-          className=" w-60 lg:w-80 mt-10 border-1 border-black shadow-lg shadow-gray-700 rounded-lg p-3 bg-zinc-800"
+          className="w-3/5 border-1 border-black shadow-lg shadow-gray-700 rounded-lg bg-zinc-800"
           animate={{ opacity: 1 }}
           initial={{ opacity: 0 }}
-          transition={{ type: "spring", delay: 0.3 }}
+          transition={{ type: "spring", delay: 0.5 }}
         >
-          <div className="form-control w-full max-w-lg">
+          <div className="form-control justify-center max-w-lg p-3 text-center">
             <label className="label">
-              <span className="label-text text-xl text-white">Name:</span>
+              <span className="label-text text-white">Name:</span>
             </label>
             <input
-              className="input input-bordered w-full max-w-xs text-lg bg-gray-200 text-black"
+              className="input input-bordered text-lg bg-gray-400 focus:bg-gray-200 text-black"
               autoComplete="off"
               type="text"
               name="user_name"
-              placeholder="Enter your name"
               value={name}
               onChange={handleInputChange}
               onBlur={(e) => handleBlur(e)}
             />
-          </div>
+          
           <div className="form-control w-full max-w-lg">
             <label className="label">
-              <span className="label-text text-xl text-white">Email:</span>
+              <span className="label-text text-white">Email:</span>
             </label>
             <input
-              className="input input-bordered w-full max-w-xs text-lg bg-gray-200 text-black"
+              className="input input-bordered text-lg bg-gray-400 focus:bg-gray-200 text-black"
               autoComplete="off"
               type="email"
               name="user_email"
-              placeholder="Enter your email"
               value={email}
               onChange={handleInputChange}
               onBlur={(e) => handleBlur(e)}
             />
           </div>
-          <div className="form-control w-full max-w-lg mt-3">
+          <div className="form-control justify-center">
             <label className="label">
-              <span className="label-text text-xl text-white">Message:</span>
+              <span className="label-text text-white">Message:</span>
             </label>
             <textarea 
-              className="text-area input input-bordered w-full max-w-xs text-lg pt-2 bg-gray-200 text-black"
+              className="text-area input input-bordered text-lg pt-2 bg-gray-400 focus:bg-gray-200 text-black"
               autoComplete="off"
               type="text"
               name="message"
-              placeholder="Send me a message!"
               value={message}
               onChange={handleInputChange}
               onBlur={(e) => handleBlur(e)}
@@ -142,10 +139,10 @@ export default function Contact() {
               {errorMessage}{" "}
             </h4>
           )}
-          <div className="flex justify-center flex-col my-5">
+          <div className="flex justify-center p-8">
             <button
               type="submit"
-              className="btn mx-24 btn-active border-none btn-accent hover:bg-yellow-500"
+              className="btn btn-wide btn-active border-none btn-accent hover:bg-yellow-500"
               
             >
               Send
@@ -155,6 +152,9 @@ export default function Contact() {
                 {successMessage}
               </h5>
             )}
+          </div>
+          <div className="divider">OR</div>
+          <h2 className="text-xl">Send me an email at <span className="italic text-2xl">ccooper.9893@gmail.com</span></h2>
           </div>
         </motion.div>
       </form>
