@@ -155,7 +155,7 @@ export default function Contact() {
             )}
           </div>
           <div className="divider">OR</div>
-          <h2 className="text-xl">Send me an email at <span className="italic text-2xl">ccooper.9893@gmail.com</span></h2>
+          <h2 className="text-xl">Send me an email at <span className="italic">ccooper.9893@gmail.com</span></h2>
           </div>
         </motion.div>
       </form>
