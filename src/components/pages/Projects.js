@@ -11,6 +11,8 @@ import omegaBlogsLogo from "../../assets/screenshots/omegaLogo.png";
 import popcornLogo from "../../assets/screenshots/popcornLogo.png";
 import jateLogo from "../../assets/icons/JateLogoblue.png";
 import apiLogo from "../../assets/icons/apiLogo.png";
+import farmPic from "../../assets/screenshots/farm-market-screenshot.png";
+import farmIcon from "../../assets/icons/farmIcon.png";
 
 export default function Skills({ handlePageChange }) {
   const projectInfo = [
@@ -84,6 +86,20 @@ export default function Skills({ handlePageChange }) {
       modalId: "socialMediaModal",
       delay: 1.2,
     },
+    {
+      title: "Farmer's Market",
+      summary:
+        "Farmer's market website designed to connect local producers with consumers who are looking for fresh and high-quality produce and products. The platform provides an interface that is easy for users to navigate, enabling them to browse and search for products. In addition, merchants can manage their inventory by creating or deleting products and updating stock or prices.",
+      logoImg: farmIcon,
+      logoWidth: "w-24",
+      screenshot: farmPic,
+      logoAlt: "Farm",
+      screenshotAlt: "Shop products page",
+      githubLink: "https://github.com/lgenzone/Farmers-Market",
+      websiteLink: "https://farmermarket.herokuapp.com/",
+      modalId: "farmModal",
+      delay: 1.4,
+    },
   ];
 
   return (
@@ -93,7 +109,7 @@ export default function Skills({ handlePageChange }) {
       </h1>
       <h6 className="text-center">Click icon to view</h6>
 
-      <motion.div className="flex flex-col lg:flex-row justify-center lg:mt-24 gap-6">
+      <motion.div className="flex flex-row flex-wrap justify-center lg:mt-24 mx-40 gap-6">
         {projectInfo.map((project) => {
           return <Project key={project.modalId} project={project}></Project>;
         })}
