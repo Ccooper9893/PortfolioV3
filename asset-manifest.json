@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioV3/static/css/main.c7663c82.css",
-    "main.js": "/PortfolioV3/static/js/main.e755160a.js",
+    "main.js": "/PortfolioV3/static/js/main.8b5746ed.js",
     "static/media/farm-market-screenshot.png": "/PortfolioV3/static/media/farm-market-screenshot.a8dda60cc59eb87804de.png",
     "static/media/bringpopcornscreenshot.png": "/PortfolioV3/static/media/bringpopcornscreenshot.18e413583a078f04de88.png",
     "static/media/dashboardScreenshot.png": "/PortfolioV3/static/media/dashboardScreenshot.11045b1734c6d8e23a5f.png",
@@ -27,10 +27,10 @@
     "static/media/briefcase.png": "/PortfolioV3/static/media/briefcase.8dd5067912f5a57fb7ad.png",
     "index.html": "/PortfolioV3/index.html",
     "main.c7663c82.css.map": "/PortfolioV3/static/css/main.c7663c82.css.map",
-    "main.e755160a.js.map": "/PortfolioV3/static/js/main.e755160a.js.map"
+    "main.8b5746ed.js.map": "/PortfolioV3/static/js/main.8b5746ed.js.map"
   },
   "entrypoints": [
     "static/css/main.c7663c82.css",
-    "static/js/main.e755160a.js"
+    "static/js/main.8b5746ed.js"
   ]
 }
