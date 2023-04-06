@@ -22,6 +22,7 @@ export default function Resume({ handlePageChange }) {
     "REST",
     "Web Tokens",
     "APIs",
+    "Google Cloud Storage",
   ];
   const otherSkills = [
     "Git",

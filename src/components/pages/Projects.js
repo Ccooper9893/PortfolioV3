@@ -19,7 +19,8 @@ export default function Skills({ handlePageChange }) {
     {
       title: "Bring Popcorn",
       summary:
-        "Bring Popcorn is a movie search website that was    developed with the goal of providing users with one,  convenient location to discover and search for movies. By utilizing several third-party APIs, we deliver various pieces of data, eliminating the need for multiple applications to obtain movie-related information.",
+        "Bring Popcorn is a movie search website that was developed with the goal of providing users with one,  convenient location to discover and search for movies. By utilizing several third-party APIs, we deliver various pieces of data, eliminating the need for multiple applications to obtain movie-related information.",
+      technology: 'Javascript, HTML, CSS, Bootstrap, Third-Party APIs, Git',
       logoImg: popcornLogo,
       logoWidth: "w-20",
       screenshot: bringPopcornPic,
@@ -28,12 +29,13 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/NBADRAUN/Bring-Popcorn",
       websiteLink: "https://nbadraun.github.io/Bring-Popcorn/",
       modalId: "bringPopcornModal",
-      delay: 1.2,
+      delay: 1,
     },
     {
       title: "Omega Blogs",
       summary:
         "Omega Blogs is a space in which you can share your ideas and gain knowledge from others. Created using MVP (Mode-View-Controller) paradigm and OOP (Object-Oriented-Programming).",
+      technology: 'Javascript, Handlebars, Bootstrap, MySQL, Express, Bcrypt, Node, Heroku Deployment, Git',
       logoImg: omegaBlogsLogo,
       logoWidth: "w-24",
       screenshot: omegaBlogsPic,
@@ -42,12 +44,13 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Omega-Blogs",
       websiteLink: "https://omega-blogs.herokuapp.com/",
       modalId: "omegaBlogsModal",
-      delay: 0.8,
+      delay: 1,
     },
     {
       title: "GetFit",
       summary:
         "GetFit is a website devoted to assisting users to become physically active and provides the necessary tools to aid users on their fitness journeys. GetFit is a collaborative project that is based off MVC (Model-View-Controller) paradigm and utilizes a wide array of softwares to store and manipulate user exercise data",
+      technology: 'Javascript, Handlebars, Bootstrap, MySQL, Express, Bcrypt, Node, Heroku Deployment, Git',
       logoImg: getFitLogo,
       logoWidth: "w-32",
       screenshot: getFitPic,
@@ -56,12 +59,13 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Jelenarog/Workout-planner",
       websiteLink: "https://getfit-fitness-tracker.herokuapp.com/",
       modalId: "getFitModal",
-      delay: 0.4,
+      delay: 1,
     },
     {
       title: "J.A.T.E",
       summary:
         "JATE(Just Another Text Editor) is a Progressive Web Application(PWA) that provides users with a simple yet powerful text editor. With JATE, you can create, edit, and save text with ease. The app features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser, ensuring that your data is always safe and accessible.",
+      technology: 'Javascript, HTML, CSS, Webpack, Google Workbox, Node, Git',
       logoImg: jateLogo,
       logoWidth: "w-24",
       screenshot: jatePic,
@@ -70,12 +74,13 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Text-Editor",
       websiteLink: "https://lit-island-48530.herokuapp.com/",
       modalId: "jateModal",
-      delay: 0.8,
+      delay: 1,
     },
     {
       title: "Social Network API",
       summary:
         "RESTful API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This project was built using Express, MongoDB, and Mongoose. Also tested using Mocha and seeded using Postman. The API is designed to be scalable and flexible, allowing for easy integration with other applications.",
+      technology: 'Javascript, Express, MongoDB, Mongoose, Mocha, Node, Git',
       logoImg: apiLogo,
       logoWidth: "w-24",
       screenshot: apiPic,
@@ -84,12 +89,13 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Social-Networking-API",
       websiteLink: "https://github.com/Ccooper9893/Social-Networking-API",
       modalId: "socialMediaModal",
-      delay: 1.2,
+      delay: 1,
     },
     {
       title: "Farmer's Market",
       summary:
         "Farmer's market website designed to connect local producers with consumers who are looking for fresh and high-quality produce and products. The platform provides an interface that is easy for users to navigate, enabling them to browse and search for products. In addition, merchants can manage their inventory by creating or deleting products and updating stock or prices.",
+      technology: 'MongoDB, Express, React, Google Cloud Storage, JSON web tokens, Tailwind, Daisy UI, Node, Heroku Deployment, Git',
       logoImg: farmIcon,
       logoWidth: "w-24",
       screenshot: farmPic,
@@ -98,7 +104,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/lgenzone/Farmers-Market",
       websiteLink: "https://farmermarket.herokuapp.com/",
       modalId: "farmModal",
-      delay: 1.4,
+      delay: 1,
     },
   ];
 

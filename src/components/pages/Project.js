@@ -13,6 +13,7 @@ export default function Project(props) {
     logoWidth,
     title,
     summary,
+    technology,
     screenshot,
     screenshotAlt,
     githubLink,
@@ -28,7 +29,7 @@ export default function Project(props) {
     >
       <label
         htmlFor={modalId}
-        className="btn bg-transparent border-none hover:bg-transparent opacity-70 hover:opacity-100"
+        className="btn bg-transparent border-none opacity-70 hover:opacity-100 hover:bg-transparent"
       >
         <img className={logoWidth} alt={logoAlt} src={logoImg}></img>
       </label>
@@ -39,6 +40,7 @@ export default function Project(props) {
           <h3 className="text-6xl text-yellow-500 border-b border-yellow-400">
             {title}
           </h3>
+          <h4 className="text-xl text-blue-400">{technology}</h4>
           <p className="py-4 text-xl text-white">{summary}</p>
           <img src={screenshot} alt={screenshotAlt}></img>
           <div className="modal-action justify-between">
