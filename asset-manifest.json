@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/PortfolioV3/static/css/main.c7663c82.css",
-    "main.js": "/PortfolioV3/static/js/main.8b5746ed.js",
+    "main.css": "/PortfolioV3/static/css/main.595c7f97.css",
+    "main.js": "/PortfolioV3/static/js/main.9f2212fa.js",
+    "static/media/bringpopcornv2screenshot.png": "/PortfolioV3/static/media/bringpopcornv2screenshot.0d495ae32eea6ebfa97c.png",
     "static/media/farm-market-screenshot.png": "/PortfolioV3/static/media/farm-market-screenshot.a8dda60cc59eb87804de.png",
     "static/media/bringpopcornscreenshot.png": "/PortfolioV3/static/media/bringpopcornscreenshot.18e413583a078f04de88.png",
     "static/media/dashboardScreenshot.png": "/PortfolioV3/static/media/dashboardScreenshot.11045b1734c6d8e23a5f.png",
@@ -20,17 +21,18 @@
     "static/media/md-gear.png": "/PortfolioV3/static/media/md-gear.101b51c0a38d03fdbe21.png",
     "static/media/bg-gear.png": "/PortfolioV3/static/media/bg-gear.d81e36cb645a792dc0ea.png",
     "static/media/mongoApi.png": "/PortfolioV3/static/media/mongoApi.f077383b5de5c8860be9.png",
+    "static/media/popcornbag.webp": "/PortfolioV3/static/media/popcornbag.8668f1e76c98ea68725c.webp",
     "static/media/mongo.png": "/PortfolioV3/static/media/mongo.8517c097b221032b7e8e.png",
     "static/media/career-goals.png": "/PortfolioV3/static/media/career-goals.188da4aa4da2a39ace62.png",
     "static/media/JateLogoblue.png": "/PortfolioV3/static/media/JateLogoblue.1b8851865088497c74c7.png",
     "static/media/apiLogo.png": "/PortfolioV3/static/media/apiLogo.fd4002bf28e786ecb9a7.png",
     "static/media/briefcase.png": "/PortfolioV3/static/media/briefcase.8dd5067912f5a57fb7ad.png",
     "index.html": "/PortfolioV3/index.html",
-    "main.c7663c82.css.map": "/PortfolioV3/static/css/main.c7663c82.css.map",
-    "main.8b5746ed.js.map": "/PortfolioV3/static/js/main.8b5746ed.js.map"
+    "main.595c7f97.css.map": "/PortfolioV3/static/css/main.595c7f97.css.map",
+    "main.9f2212fa.js.map": "/PortfolioV3/static/js/main.9f2212fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7663c82.css",
-    "static/js/main.8b5746ed.js"
+    "static/css/main.595c7f97.css",
+    "static/js/main.9f2212fa.js"
   ]
 }
