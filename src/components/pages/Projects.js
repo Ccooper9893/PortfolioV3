@@ -6,6 +6,7 @@ import bringPopcornPic from "../../assets/screenshots/bringpopcornscreenshot.png
 import omegaBlogsPic from "../../assets/screenshots/dashboardScreenshot.png";
 import jatePic from "../../assets/screenshots/jatepic.png";
 import apiPic from "../../assets/screenshots/mongoApi.png";
+import bp2 from "../../assets/screenshots/bringpopcornv2screenshot.png";
 import getFitLogo from "../../assets/screenshots/MuscleLogoNoCircle.png";
 import omegaBlogsLogo from "../../assets/screenshots/omegaLogo.png";
 import popcornLogo from "../../assets/screenshots/popcornLogo.png";
@@ -13,6 +14,7 @@ import jateLogo from "../../assets/icons/JateLogoblue.png";
 import apiLogo from "../../assets/icons/apiLogo.png";
 import farmPic from "../../assets/screenshots/farm-market-screenshot.png";
 import farmIcon from "../../assets/icons/farmIcon.png";
+import popcornBag from "../../assets/icons/popcornbag.webp";
 
 export default function Skills({ handlePageChange }) {
   const projectInfo = [
@@ -32,6 +34,21 @@ export default function Skills({ handlePageChange }) {
       delay: 1,
     },
     {
+      title: "Bring Popcorn V2",
+      summary:
+        "Your Ultimate Destination for discovering Popcorn-Worthy Movies! This is a remake of the original Bring Popcorn website. It features both a mobile and desktop friendly UI built using Daisy UI and Tailwindcss. Also follows best practices for SEO and speed optimization. Future development will include personal watchlists and an option to view shows instead of movies.",
+      technology: 'Nextjs, React, API, Daisy UI, Tailwindcss, Javascript, CSS, JSX, Vercel Deployment',
+      logoImg: popcornBag,
+      logoWidth: "w-20",
+      screenshot: bp2,
+      logoAlt: "Bring Popcorn V2 logo",
+      screenshotAlt: "Bring Popcorn V2 website",
+      githubLink: "https://github.com/Ccooper9893",
+      websiteLink: "https://bring-popcorn.vercel.app/",
+      modalId: "bringPopcornV2Modal",
+      delay: 1.2,
+    },
+    {
       title: "Omega Blogs",
       summary:
         "Omega Blogs is a space in which you can share your ideas and gain knowledge from others. Created using MVP (Mode-View-Controller) paradigm and OOP (Object-Oriented-Programming).",
@@ -44,7 +61,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Omega-Blogs",
       websiteLink: "https://omega-blogs.herokuapp.com/",
       modalId: "omegaBlogsModal",
-      delay: 1,
+      delay: 1.4,
     },
     {
       title: "GetFit",
@@ -59,7 +76,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Jelenarog/Workout-planner",
       websiteLink: "https://getfit-fitness-tracker.herokuapp.com/",
       modalId: "getFitModal",
-      delay: 1,
+      delay: 1.6,
     },
     {
       title: "J.A.T.E",
@@ -74,7 +91,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Text-Editor",
       websiteLink: "https://lit-island-48530.herokuapp.com/",
       modalId: "jateModal",
-      delay: 1,
+      delay: 1.8,
     },
     {
       title: "Social Network API",
@@ -89,7 +106,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Social-Networking-API",
       websiteLink: "https://github.com/Ccooper9893/Social-Networking-API",
       modalId: "socialMediaModal",
-      delay: 1,
+      delay: 2,
     },
     {
       title: "Farmer's Market",
@@ -104,7 +121,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/lgenzone/Farmers-Market",
       websiteLink: "https://farmermarket.herokuapp.com/",
       modalId: "farmModal",
-      delay: 1,
+      delay: 2.2,
     },
   ];
 
@@ -115,13 +132,13 @@ export default function Skills({ handlePageChange }) {
       </h1>
       <h6 className="text-center">Click icon to view</h6>
 
-      <motion.div className="flex flex-row flex-wrap justify-center lg:mt-24 mx-40 gap-6">
+      <motion.div className="flex flex-row flex-wrap justify-center lg:mt-8 mx-40 lg:mx-72 gap-6">
         {projectInfo.map((project) => {
           return <Project key={project.modalId} project={project}></Project>;
         })}
       </motion.div>
       <motion.button
-        className="text-lg lg:text-xl animate-pulse p-0 mt-20 lg:mt-44 mb-10 text-slate-400 hover:text-white"
+        className="text-lg lg:text-xl animate-pulse p-0 mt-20 lg:mt-24 mb-10 text-slate-400 hover:text-white"
         onClick={() => handlePageChange("Resume")}
         animate={{ x: 0, opacity: 1 }}
         initial={{ x: "-30vw", opacity: 0 }}

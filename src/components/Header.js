@@ -70,7 +70,7 @@ export default function Header({ currentPage, handlePageChange }) {
           </ul>
         </div>
         <button className="btn-disabled bg-transparent text-xl ml-4 text-yellow-500">
-          CODY COOPER
+          CODY J COOPER
         </button>
       </div>
 

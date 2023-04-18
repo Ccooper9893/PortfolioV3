@@ -44,12 +44,9 @@ export default function About({ handlePageChange }) {
           </div>
           <h3 className="text-yellow-500 lg:text-2xl shadow-sm">DRIVE</h3>
           <p className="text-lg lg:text-xl mx-8">
-            As a developer, I am driven by an insatiable curiosity to explore
-            new technologies and advance my skills. From designing immersive
-            games with Unity, to reverse engineering a blender with Autodesk, I am constantly pushing
-            the boundaries of what I can create. My passion for learning fuels
-            my ambition to expand my toolkit and tackle new challenges, always
-            striving to innovate and create impactful solutions that can make a difference.
+            As a developer, I am driven by a curiosity to explore
+            new technologies and advance my skills. From building dynamic and responsive full stack web applications to reverse engineering a blender with Autodesk, I am constantly pushing
+            the boundaries of what I can create. Knowing that someone is out there using an application that I helped build... is a great feeling.
           </p>
         </motion.div>
 

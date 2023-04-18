@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 body, html {
-    background-color: #121212;
+    background-image: linear-gradient(
+        black,
+        #010011
+ 
+      );
     height: 100%;
     width: 100%;
     min-height: 100vh;
@@ -22,3 +26,8 @@ body, html {
 .navbar {
     background-color: transparent;
 }
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 0px;
+  }
