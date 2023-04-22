@@ -12,6 +12,7 @@ export default function Resume({ handlePageChange }) {
     "Tailwind",
     "Daisy UI",
     "Framer Motion",
+    "Next.js"
   ];
   const backSkills = [
     "NodeJS",
@@ -35,14 +36,14 @@ export default function Resume({ handlePageChange }) {
     "Communication",
   ];
   return (
-    <div className="flex-col justify-center text-center mt-6">
-      <h1 className="text-center text-4xl lg:text-6xl text-blue-400 mt-5">
+    <main className="flex-col justify-center text-center mt-6">
+      <header className="text-center text-4xl lg:text-6xl text-blue-400 mt-5">
         SKILLS
-      </h1>
+      </header>
 
-      <div className="grid lg:grid-cols-3 gap-2 lg:gap-10 mx-10 lg:mx-40">
-        <motion.div
-          className="my-6 border-2 border-black shadow-md shadow-black"
+      <section className="grid lg:grid-cols-3 gap-2 lg:gap-10 mx-10 lg:mx-40">
+        <motion.article
+          className="my-6 p-4 border-2 border-black shadow-md shadow-black bg-zinc-700"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: 0, opacity: 0 }}
           transition={{ delay: 0.8 }}
@@ -57,10 +58,10 @@ export default function Resume({ handlePageChange }) {
               </li>
             ))}
           </ul>
-        </motion.div>
+        </motion.article>
 
-        <motion.div
-          className="my-6 border-2 border-black shadow-md shadow-black"
+        <motion.article
+          className="my-6 p-4 border-2 border-black shadow-md shadow-black bg-zinc-800"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: 0, opacity: 0 }}
           transition={{ delay: 0.6 }}
@@ -75,10 +76,10 @@ export default function Resume({ handlePageChange }) {
               </li>
             ))}
           </ul>
-        </motion.div>
+        </motion.article>
 
-        <motion.div
-          className="my-6 border-2 border-black shadow-md shadow-black"
+        <motion.article
+          className="my-6 p-4 border-2 border-black shadow-md shadow-black bg-zinc-900"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: 0, opacity: 0 }}
           transition={{ delay: 1 }}
@@ -93,8 +94,8 @@ export default function Resume({ handlePageChange }) {
               </li>
             ))}
           </ul>
-        </motion.div>
-      </div>
+        </motion.article>
+      </section>
 
       <motion.a
         className="btn glass text-white shadow-sm shadow-black btn-wide"
@@ -106,7 +107,7 @@ export default function Resume({ handlePageChange }) {
       >
         Download Resume
       </motion.a>
-      <div>
+      <section>
         <motion.button
           className="text-lg lg:text-xl animate-pulse p-0 text-slate-400 my-8 hover:text-white"
           onClick={() => handlePageChange("Contact")}
@@ -116,7 +117,7 @@ export default function Resume({ handlePageChange }) {
         >
           Continue &#x2192;
         </motion.button>
-      </div>
-    </div>
+        </section>
+    </main>
   );
 }

@@ -9,10 +9,10 @@ import lightbulb from "../../assets/icons/lightbulb.png";
 
 export default function About({ handlePageChange }) {
   return (
-    <div className="h-full flex-col text-center about mt-3">
+    <main className="h-full flex-col text-center about mt-3">
       <h1 className="text-6xl text-blue-400">ABOUT</h1>
-      <div className="grid lg:grid-cols-2 mt-4">
-        <motion.div
+      <section className="grid lg:grid-cols-2 mt-4">
+        <motion.article
           className="p-4"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: "100vh", opacity: 0 }}
@@ -48,9 +48,9 @@ export default function About({ handlePageChange }) {
             new technologies and advance my skills. From building dynamic and responsive full stack web applications to reverse engineering a blender with Autodesk, I am constantly pushing
             the boundaries of what I can create. Knowing that someone is out there using an application that I helped build... is a great feeling.
           </p>
-        </motion.div>
+        </motion.article>
 
-        <motion.div
+        <motion.article
           className="p-4"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: "100vh", opacity: 0 }}
@@ -71,9 +71,9 @@ export default function About({ handlePageChange }) {
           <p className="text-lg lg:text-xl mx-8">
           My goal is to pursue a career in coding because it's something that I absolutely love doing. I am always eager to learn more and improve my skills, and I find myself spending hours reading documentation and daydreaming about code. I'm excited about the prospect of working with others to build something truly amazing - something that can change lives, no matter how big or small.
           </p>
-        </motion.div>
+        </motion.article>
 
-        <motion.div
+        <motion.article
           className="text-center mt-7 p-4"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: "100vh", opacity: 0 }}
@@ -92,9 +92,9 @@ export default function About({ handlePageChange }) {
           <p className="text-lg lg:text-xl mx-8">
           As a Full Stack web developer, I have created numerous applications that range from simple static webpages to complex MERN stack applications. My experience includes developing websites that are responsive, intuitive, and visually appealing, using a variety of programming languages and frameworks. In addition to my technical expertise, I have leadership experience as a general manager where I led a team consisting of over 40 people. This experience taught me the importance of effective communication and treating others with respect. I am excited about utilizing my diverse skill set to create innovative solutions and collaborate with others to make an impact. 
           </p>
-        </motion.div>
+        </motion.article>
 
-        <motion.div
+        <motion.article
           className="p-4"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: "100vh", opacity: 0 }}
@@ -112,8 +112,8 @@ export default function About({ handlePageChange }) {
           I strongly value the principles of hard work and respect, and these values have been the guiding force in my personal and professional life. Whether it's working on personal projects or collaborating with a team, I believe that a positive and respectful work environment is essential for success.
       I never shy away from an opportunity to lend or receive a helping hand, and I take pride in my ability to communicate effectively and work collaboratively with others. Learning new skills and pushing myself beyond my limits is something that I thoroughly enjoy, and I am constantly seeking opportunities to challenge myself and grow both personally and professionally.
           </p>
-        </motion.div>
-      </div>
+        </motion.article>
+      </section>
       <motion.button
         className="text-lg lg:text-xl animate-pulse p-0 mt-8 mb-10 text-slate-400 hover:text-white"
         onClick={() => handlePageChange("Projects")}
@@ -123,6 +123,6 @@ export default function About({ handlePageChange }) {
       >
         Continue &#x2192;
       </motion.button>
-    </div>
+    </main>
   );
 }

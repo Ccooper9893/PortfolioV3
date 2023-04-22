@@ -80,11 +80,11 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <>
       <h1 className="text-center text-4xl lg:text-6xl text-blue-400 mt-5">
         CONTACT
       </h1>
-      <div className="flex justify-center">
+      <main className="flex justify-center">
       <form ref={form} onSubmit={handleSubmit} className="m-auto mb-10 bg-gray">
         <motion.div
           className="m-auto border-1 p-4 border-black shadow-lg shadow-gray-700 rounded-lg bg-zinc-800"
@@ -159,7 +159,7 @@ export default function Contact() {
           </div>
         </motion.div>
       </form>
-      </div>
-    </div>
+      </main>
+      </>
   );
 }

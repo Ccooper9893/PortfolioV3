@@ -126,11 +126,11 @@ export default function Skills({ handlePageChange }) {
   ];
 
   return (
-    <div className="flex flex-col overflow-hidden">
+    <main className="flex flex-col overflow-hidden">
       <h1 className="text-center text-4xl lg:text-6xl text-blue-400 mt-5">
         PROJECTS
       </h1>
-      <h6 className="text-center">Click icon to view</h6>
+      <h2 className="text-center">Click icon to view</h2>
 
       <motion.div className="flex flex-row flex-wrap justify-center lg:mt-8 mx-40 lg:mx-72 gap-6">
         {projectInfo.map((project) => {
@@ -146,6 +146,6 @@ export default function Skills({ handlePageChange }) {
       >
         Continue &#x2192;
       </motion.button>
-    </div>
+    </main>
   );
 }
