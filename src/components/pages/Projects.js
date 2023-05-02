@@ -63,21 +63,21 @@ export default function Skills({ handlePageChange }) {
       modalId: "omegaBlogsModal",
       delay: 1.4,
     },
-    {
-      title: "GetFit",
-      summary:
-        "GetFit is a website devoted to assisting users to become physically active and provides the necessary tools to aid users on their fitness journeys. GetFit is a collaborative project that is based off MVC (Model-View-Controller) paradigm and utilizes a wide array of softwares to store and manipulate user exercise data",
-      technology: 'Javascript, Handlebars, Bootstrap, MySQL, Express, Bcrypt, Node, Heroku Deployment, Git',
-      logoImg: getFitLogo,
-      logoWidth: "w-32",
-      screenshot: getFitPic,
-      logoAlt: "GetFit logo",
-      screenshotAlt: "GetFit website",
-      githubLink: "https://github.com/Jelenarog/Workout-planner",
-      websiteLink: "https://getfit-fitness-tracker.herokuapp.com/",
-      modalId: "getFitModal",
-      delay: 1.6,
-    },
+    // {
+    //   title: "GetFit",
+    //   summary:
+    //     "GetFit is a website devoted to assisting users to become physically active and provides the necessary tools to aid users on their fitness journeys. GetFit is a collaborative project that is based off MVC (Model-View-Controller) paradigm and utilizes a wide array of softwares to store and manipulate user exercise data",
+    //   technology: 'Javascript, Handlebars, Bootstrap, MySQL, Express, Bcrypt, Node, Heroku Deployment, Git',
+    //   logoImg: getFitLogo,
+    //   logoWidth: "w-32",
+    //   screenshot: getFitPic,
+    //   logoAlt: "GetFit logo",
+    //   screenshotAlt: "GetFit website",
+    //   githubLink: "https://github.com/Jelenarog/Workout-planner",
+    //   websiteLink: "https://getfit-fitness-tracker.herokuapp.com/",
+    //   modalId: "getFitModal",
+    //   delay: 1.6,
+    // },
     {
       title: "J.A.T.E",
       summary:
