@@ -91,7 +91,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Text-Editor",
       websiteLink: "https://lit-island-48530.herokuapp.com/",
       modalId: "jateModal",
-      delay: 1.8,
+      delay: 1.6,
     },
     {
       title: "Social Network API",
@@ -106,7 +106,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/Ccooper9893/Social-Networking-API",
       websiteLink: "https://github.com/Ccooper9893/Social-Networking-API",
       modalId: "socialMediaModal",
-      delay: 2,
+      delay: 1.8,
     },
     {
       title: "Farmer's Market",
@@ -121,7 +121,7 @@ export default function Skills({ handlePageChange }) {
       githubLink: "https://github.com/lgenzone/Farmers-Market",
       websiteLink: "https://farmermarket.herokuapp.com/",
       modalId: "farmModal",
-      delay: 2.2,
+      delay: 2,
     },
   ];
 
@@ -142,7 +142,7 @@ export default function Skills({ handlePageChange }) {
         onClick={() => handlePageChange("Resume")}
         animate={{ x: 0, opacity: 1 }}
         initial={{ x: "-30vw", opacity: 0 }}
-        transition={{ type: "spring", delay: 2.5 }}
+        transition={{ type: "spring", delay: 2.2 }}
       >
         Continue &#x2192;
       </motion.button>
