@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 body, html {
-    background-image: linear-gradient(
-        black,
-        #010011
- 
-      );
+    background-color: black;
     height: 100%;
     width: 100%;
     min-height: 100vh;
