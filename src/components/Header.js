@@ -4,7 +4,7 @@ import linkedLogo from "../assets/icons/linkedinWhite.png";
 
 export default function Header({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar bg-base-100 shadow-lg shadow-gray-900">
+    <nav className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown z-10">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
