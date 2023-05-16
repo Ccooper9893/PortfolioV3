@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioV3/static/css/main.fb2f7e75.css",
-    "main.js": "/PortfolioV3/static/js/main.16efc547.js",
+    "main.css": "/PortfolioV3/static/css/main.9b9fbfeb.css",
+    "main.js": "/PortfolioV3/static/js/main.f89a31da.js",
     "static/media/bringpopcornv2screenshot.png": "/PortfolioV3/static/media/bringpopcornv2screenshot.0d495ae32eea6ebfa97c.png",
     "static/media/farm-market-screenshot.png": "/PortfolioV3/static/media/farm-market-screenshot.a8dda60cc59eb87804de.png",
     "static/media/bringpopcornscreenshot.png": "/PortfolioV3/static/media/bringpopcornscreenshot.18e413583a078f04de88.png",
@@ -28,11 +28,11 @@
     "static/media/apiLogo.png": "/PortfolioV3/static/media/apiLogo.fd4002bf28e786ecb9a7.png",
     "static/media/briefcase.png": "/PortfolioV3/static/media/briefcase.8dd5067912f5a57fb7ad.png",
     "index.html": "/PortfolioV3/index.html",
-    "main.fb2f7e75.css.map": "/PortfolioV3/static/css/main.fb2f7e75.css.map",
-    "main.16efc547.js.map": "/PortfolioV3/static/js/main.16efc547.js.map"
+    "main.9b9fbfeb.css.map": "/PortfolioV3/static/css/main.9b9fbfeb.css.map",
+    "main.f89a31da.js.map": "/PortfolioV3/static/js/main.f89a31da.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb2f7e75.css",
-    "static/js/main.16efc547.js"
+    "static/css/main.9b9fbfeb.css",
+    "static/js/main.f89a31da.js"
   ]
 }
