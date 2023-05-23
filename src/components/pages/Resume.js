@@ -43,10 +43,10 @@ export default function Resume({ handlePageChange }) {
 
       <section className="grid lg:grid-cols-3 gap-2 lg:gap-10 mx-10 lg:mx-40">
         <motion.article
-          className="my-6 p-4 border-2 border-black shadow-md shadow-black bg-zinc-700"
+          className="my-3 p-4 border-2 border-black shadow-md shadow-black bg-zinc-800"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: 0, opacity: 0 }}
-          transition={{ delay: 0.8 }}
+          transition={{ delay: 0.2 }}
         >
           <h2 className="text-2xl text-white border-b border-b-blue-400">
             BACK-END
@@ -61,10 +61,10 @@ export default function Resume({ handlePageChange }) {
         </motion.article>
 
         <motion.article
-          className="my-6 p-4 border-2 border-black shadow-md shadow-black bg-zinc-800"
+          className="my-3 p-4 border-2 border-black shadow-md shadow-black bg-zinc-800"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: 0, opacity: 0 }}
-          transition={{ delay: 0.6 }}
+          transition={{ delay: 0.4 }}
         >
           <h2 className="text-2xl text-white border-b border-b-blue-400">
             FRONT-END
@@ -79,10 +79,10 @@ export default function Resume({ handlePageChange }) {
         </motion.article>
 
         <motion.article
-          className="my-6 p-4 border-2 border-black shadow-md shadow-black bg-zinc-900"
+          className="my-3 p-4 border-2 border-black shadow-md shadow-black bg-zinc-800"
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: 0, opacity: 0 }}
-          transition={{ delay: 1 }}
+          transition={{ delay: 0.6 }}
         >
           <h2 className="text-2xl text-white border-b border-b-blue-400">
             OTHER
@@ -109,7 +109,7 @@ export default function Resume({ handlePageChange }) {
       </motion.a>
       <section>
         <motion.button
-          className="text-lg lg:text-xl animate-pulse p-0 text-slate-400 my-8 hover:text-white"
+          className="text-lg lg:text-xl animate-pulse p-0 text-slate-400 my-4 hover:text-white"
           onClick={() => handlePageChange("Contact")}
           animate={{ x: 0, opacity: 1 }}
           initial={{ x: "-30vw", opacity: 0 }}

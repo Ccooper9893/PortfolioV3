@@ -15,7 +15,7 @@ export default function About({ handlePageChange }) {
         <motion.article
           className="p-4"
           animate={{ y: 0, opacity: 1 }}
-          initial={{ y: "100vh", opacity: 0 }}
+          initial={{ y: "30vh", opacity: 0 }}
           transition={{ type: "tween", ease: "easeIn", delay: 0.2 }}
         >
           <div className="flex relative justify-center mb-14 opacity-90">
@@ -53,7 +53,7 @@ export default function About({ handlePageChange }) {
         <motion.article
           className="p-4"
           animate={{ y: 0, opacity: 1 }}
-          initial={{ y: "100vh", opacity: 0 }}
+          initial={{ y: "60vh", opacity: 0 }}
           transition={{
             type: "tween",
             ease: "easeIn",
@@ -76,7 +76,7 @@ export default function About({ handlePageChange }) {
         <motion.article
           className="text-center mt-7 p-4"
           animate={{ y: 0, opacity: 1 }}
-          initial={{ y: "100vh", opacity: 0 }}
+          initial={{ y: "90vh", opacity: 0 }}
           transition={{ type: "tween", ease: "easeIn", delay: 0.6 }}
         >
           <div className="flex justify-center mb-7 mt-2">

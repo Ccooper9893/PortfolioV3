@@ -18,6 +18,7 @@ export default function Project(props) {
     screenshotAlt,
     githubLink,
     websiteLink,
+    futureUpdates,
   } = project;
 
   return (
@@ -31,7 +32,7 @@ export default function Project(props) {
         htmlFor={modalId}
         className="btn bg-transparent border-none opacity-70 hover:opacity-100 hover:bg-transparent"
       >
-        {title === "Bring Popcorn V2" || title === "Farmer's Market" ? (
+        {title === "Bring Popcorn V2" ? (
           <div className="indicator">
             <span className="indicator-item badge bg-white scale-110 text-black">New</span>
             <div className="relative -top-7">
@@ -52,6 +53,7 @@ export default function Project(props) {
           </h2>
           <h3 className="text-xl text-blue-400">{technology}</h3>
           <p className="py-4 text-xl">{summary}</p>
+          <p className="pb-2 text-lg"><span className="text-blue-400">Future updates: </span>{futureUpdates}</p>
           <img src={screenshot} alt={screenshotAlt}></img>
           <section className="modal-action justify-between">
             <div className="flex flex-row gap-10 align-middle">

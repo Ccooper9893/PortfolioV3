@@ -90,7 +90,7 @@ export default function Contact() {
           className="m-auto border-1 p-4 border-black shadow-lg shadow-gray-700 rounded-lg bg-zinc-800"
           animate={{ opacity: 1 }}
           initial={{ opacity: 0 }}
-          transition={{ type: "spring", delay: 0.5 }}
+          transition={{ type: "spring", delay: 0.2 }}
         >
           <div className="form-control justify-center p-3 text-center">
             <label className="label">
