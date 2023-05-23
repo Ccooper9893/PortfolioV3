@@ -6,7 +6,7 @@ import omegaBlogsPic from "../../assets/screenshots/dashboardScreenshot.png";
 import bp2 from "../../assets/screenshots/bringpopcornv2screenshot.png";
 import omegaBlogsLogo from "../../assets/screenshots/omegaLogo.png";
 import popcornLogo from "../../assets/screenshots/popcornLogo.png";
-import farmPic from "../../assets/screenshots/farm-market-screenshot.png";
+import farmPic from "../../assets/screenshots/farm-market-screenshot.webp";
 import farmIcon from "../../assets/icons/farmIcon.webp";
 import popcornBag from "../../assets/icons/popcornbag.webp";
 
