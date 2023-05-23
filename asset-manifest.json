@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioV3/static/css/main.9b9fbfeb.css",
-    "main.js": "/PortfolioV3/static/js/main.2a51d182.js",
+    "main.js": "/PortfolioV3/static/js/main.8542efae.js",
     "static/media/bringpopcornv2screenshot.png": "/PortfolioV3/static/media/bringpopcornv2screenshot.0d495ae32eea6ebfa97c.png",
     "static/media/bringpopcornscreenshot.png": "/PortfolioV3/static/media/bringpopcornscreenshot.18e413583a078f04de88.png",
     "static/media/dashboardScreenshot.png": "/PortfolioV3/static/media/dashboardScreenshot.11045b1734c6d8e23a5f.png",
@@ -23,10 +23,10 @@
     "static/media/briefcase.png": "/PortfolioV3/static/media/briefcase.8dd5067912f5a57fb7ad.png",
     "index.html": "/PortfolioV3/index.html",
     "main.9b9fbfeb.css.map": "/PortfolioV3/static/css/main.9b9fbfeb.css.map",
-    "main.2a51d182.js.map": "/PortfolioV3/static/js/main.2a51d182.js.map"
+    "main.8542efae.js.map": "/PortfolioV3/static/js/main.8542efae.js.map"
   },
   "entrypoints": [
     "static/css/main.9b9fbfeb.css",
-    "static/js/main.2a51d182.js"
+    "static/js/main.8542efae.js"
   ]
 }
