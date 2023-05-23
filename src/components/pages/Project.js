@@ -41,7 +41,16 @@ export default function Project(props) {
         ) : (
           <img className={logoWidth} alt={logoAlt} src={logoImg}></img>
         )}
-
+        {title === "Farmer's Market" ? (
+          <div className="indicator">
+            <span className="indicator-item badge bg-white scale-110 text-black">New</span>
+            <div className="relative -top-7">
+              <img className={logoWidth} alt={logoAlt} src={logoImg}></img>
+            </div>
+          </div>
+        ) : (
+          <img className={logoWidth} alt={logoAlt} src={logoImg}></img>
+        )}
       </label>
 
       <input type="checkbox" id={modalId} className="modal-toggle" />
