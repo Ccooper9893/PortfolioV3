@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/PortfolioV3/static/css/main.9b9fbfeb.css",
-    "main.js": "/PortfolioV3/static/js/main.3d5fe402.js",
+    "main.js": "/PortfolioV3/static/js/main.f84eed8b.js",
     "static/media/bringpopcornv2screenshot.png": "/PortfolioV3/static/media/bringpopcornv2screenshot.0d495ae32eea6ebfa97c.png",
     "static/media/bringpopcornscreenshot.png": "/PortfolioV3/static/media/bringpopcornscreenshot.18e413583a078f04de88.png",
-    "static/media/farm-market-screenshot.png": "/PortfolioV3/static/media/farm-market-screenshot.cf23e3274215fcf634b5.png",
     "static/media/dashboardScreenshot.png": "/PortfolioV3/static/media/dashboardScreenshot.11045b1734c6d8e23a5f.png",
     "static/media/selfie2-colorized-sm-burned.png": "/PortfolioV3/static/media/selfie2-colorized-sm-burned.6c49e83c82e99487d080.png",
+    "static/media/farm-market-screenshot.webp": "/PortfolioV3/static/media/farm-market-screenshot.635effc3bb632fbe8bb6.webp",
     "static/media/omegaLogo.png": "/PortfolioV3/static/media/omegaLogo.484a452595e032f72e3f.png",
     "static/media/lightbulb.png": "/PortfolioV3/static/media/lightbulb.3dadc632d3783403bf41.png",
     "static/media/react.png": "/PortfolioV3/static/media/react.a8cdc9ccd981fe1a99d4.png",
@@ -23,10 +23,10 @@
     "static/media/briefcase.png": "/PortfolioV3/static/media/briefcase.8dd5067912f5a57fb7ad.png",
     "index.html": "/PortfolioV3/index.html",
     "main.9b9fbfeb.css.map": "/PortfolioV3/static/css/main.9b9fbfeb.css.map",
-    "main.3d5fe402.js.map": "/PortfolioV3/static/js/main.3d5fe402.js.map"
+    "main.f84eed8b.js.map": "/PortfolioV3/static/js/main.f84eed8b.js.map"
   },
   "entrypoints": [
     "static/css/main.9b9fbfeb.css",
-    "static/js/main.3d5fe402.js"
+    "static/js/main.f84eed8b.js"
   ]
 }
