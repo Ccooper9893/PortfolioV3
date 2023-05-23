@@ -1,19 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Project from "./Project";
-import getFitPic from "../../assets/screenshots/getfitScreenshot.png";
 import bringPopcornPic from "../../assets/screenshots/bringpopcornscreenshot.png";
 import omegaBlogsPic from "../../assets/screenshots/dashboardScreenshot.png";
-import jatePic from "../../assets/screenshots/jatepic.png";
-import apiPic from "../../assets/screenshots/mongoApi.png";
 import bp2 from "../../assets/screenshots/bringpopcornv2screenshot.png";
-import getFitLogo from "../../assets/screenshots/MuscleLogoNoCircle.png";
 import omegaBlogsLogo from "../../assets/screenshots/omegaLogo.png";
 import popcornLogo from "../../assets/screenshots/popcornLogo.png";
-import jateLogo from "../../assets/icons/JateLogoblue.png";
-import apiLogo from "../../assets/icons/apiLogo.png";
 import farmPic from "../../assets/screenshots/farm-market-screenshot.png";
-import farmIcon from "../../assets/icons/farmIcon.png";
+import farmIcon from "../../assets/icons/farmIcon.webp";
 import popcornBag from "../../assets/icons/popcornbag.webp";
 
 export default function Skills({ handlePageChange }) {
@@ -118,8 +112,8 @@ export default function Skills({ handlePageChange }) {
       screenshot: farmPic,
       logoAlt: "Farm",
       screenshotAlt: "Shop products page",
-      githubLink: "https://github.com/lgenzone/Farmers-Market",
-      websiteLink: "https://farmermarket.herokuapp.com/",
+      githubLink: "https://github.com/Ccooper9893/Farmers-Market-Shop",
+      websiteLink: "https://farm-market-shop.herokuapp.com/",
       modalId: "farmModal",
       delay: 1.6,
     },
