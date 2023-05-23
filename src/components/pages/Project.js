@@ -31,17 +31,7 @@ export default function Project(props) {
         htmlFor={modalId}
         className="btn bg-transparent border-none opacity-70 hover:opacity-100 hover:bg-transparent"
       >
-        {title === "Bring Popcorn V2" ? (
-          <div className="indicator">
-            <span className="indicator-item badge bg-white scale-110 text-black">New</span>
-            <div className="relative -top-7">
-              <img className={logoWidth} alt={logoAlt} src={logoImg}></img>
-            </div>
-          </div>
-        ) : (
-          <img className={logoWidth} alt={logoAlt} src={logoImg}></img>
-        )}
-        {title === "Farmer's Market" ? (
+        {title === "Bring Popcorn V2" || title === "Farmer's Market" ? (
           <div className="indicator">
             <span className="indicator-item badge bg-white scale-110 text-black">New</span>
             <div className="relative -top-7">
